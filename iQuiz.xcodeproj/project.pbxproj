@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664DFBAA2B73156500455134 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664DFBA92B73156500455134 /* QuestaoViewController.swift */; };
 		667E1F822B71BAC800B8F958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E1F812B71BAC800B8F958 /* AppDelegate.swift */; };
 		667E1F842B71BAC800B8F958 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E1F832B71BAC800B8F958 /* SceneDelegate.swift */; };
 		667E1F862B71BAC800B8F958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E1F852B71BAC800B8F958 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		664DFBA92B73156500455134 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 		667E1F7E2B71BAC800B8F958 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667E1F812B71BAC800B8F958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667E1F832B71BAC800B8F958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				667E1F8A2B71BAC900B8F958 /* Assets.xcassets */,
 				667E1F8C2B71BAC900B8F958 /* LaunchScreen.storyboard */,
 				667E1F8F2B71BAC900B8F958 /* Info.plist */,
+				664DFBA92B73156500455134 /* QuestaoViewController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				667E1F862B71BAC800B8F958 /* ViewController.swift in Sources */,
 				667E1F822B71BAC800B8F958 /* AppDelegate.swift in Sources */,
 				667E1F842B71BAC800B8F958 /* SceneDelegate.swift in Sources */,
+				664DFBAA2B73156500455134 /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
