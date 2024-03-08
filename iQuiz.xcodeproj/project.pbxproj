@@ -9,17 +9,20 @@
 /* Begin PBXBuildFile section */
 		664DFBAA2B73156500455134 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664DFBA92B73156500455134 /* QuestaoViewController.swift */; };
 		664DFBCE2B7D680A00455134 /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664DFBCD2B7D680A00455134 /* Questao.swift */; };
+		664DFBD22B881D9F00455134 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664DFBD12B881D9F00455134 /* DesempenhoViewController.swift */; };
 		667E1F822B71BAC800B8F958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E1F812B71BAC800B8F958 /* AppDelegate.swift */; };
 		667E1F842B71BAC800B8F958 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E1F832B71BAC800B8F958 /* SceneDelegate.swift */; };
 		667E1F862B71BAC800B8F958 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667E1F852B71BAC800B8F958 /* ViewController.swift */; };
 		667E1F892B71BAC800B8F958 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667E1F872B71BAC800B8F958 /* Main.storyboard */; };
 		667E1F8B2B71BAC900B8F958 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667E1F8A2B71BAC900B8F958 /* Assets.xcassets */; };
 		667E1F8E2B71BAC900B8F958 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667E1F8C2B71BAC900B8F958 /* LaunchScreen.storyboard */; };
+		66CE4F7A2B9615C000A9D2F0 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE4F792B9615C000A9D2F0 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		664DFBA92B73156500455134 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 		664DFBCD2B7D680A00455134 /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		664DFBD12B881D9F00455134 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
 		667E1F7E2B71BAC800B8F958 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667E1F812B71BAC800B8F958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667E1F832B71BAC800B8F958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		667E1F8A2B71BAC900B8F958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667E1F8D2B71BAC900B8F958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		667E1F8F2B71BAC900B8F958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66CE4F792B9615C000A9D2F0 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		666D9B032B8EC2FA00092869 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				664DFBA92B73156500455134 /* QuestaoViewController.swift */,
+				664DFBD12B881D9F00455134 /* DesempenhoViewController.swift */,
+				667E1F852B71BAC800B8F958 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		666D9B042B8EC33A00092869 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				664DFBCD2B7D680A00455134 /* Questao.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
 		667E1F752B71BAC800B8F958 = {
 			isa = PBXGroup;
 			children = (
@@ -60,17 +82,25 @@
 		667E1F802B71BAC800B8F958 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				66CE4F782B96155B00A9D2F0 /* Extensoes */,
+				666D9B042B8EC33A00092869 /* Modelo */,
+				666D9B032B8EC2FA00092869 /* ViewController */,
 				667E1F812B71BAC800B8F958 /* AppDelegate.swift */,
 				667E1F832B71BAC800B8F958 /* SceneDelegate.swift */,
-				667E1F852B71BAC800B8F958 /* ViewController.swift */,
 				667E1F872B71BAC800B8F958 /* Main.storyboard */,
 				667E1F8A2B71BAC900B8F958 /* Assets.xcassets */,
 				667E1F8C2B71BAC900B8F958 /* LaunchScreen.storyboard */,
 				667E1F8F2B71BAC900B8F958 /* Info.plist */,
-				664DFBA92B73156500455134 /* QuestaoViewController.swift */,
-				664DFBCD2B7D680A00455134 /* Questao.swift */,
 			);
 			path = iQuiz;
+			sourceTree = "<group>";
+		};
+		66CE4F782B96155B00A9D2F0 /* Extensoes */ = {
+			isa = PBXGroup;
+			children = (
+				66CE4F792B9615C000A9D2F0 /* UIColor+.swift */,
+			);
+			path = Extensoes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +176,10 @@
 			files = (
 				667E1F862B71BAC800B8F958 /* ViewController.swift in Sources */,
 				667E1F822B71BAC800B8F958 /* AppDelegate.swift in Sources */,
+				66CE4F7A2B9615C000A9D2F0 /* UIColor+.swift in Sources */,
 				667E1F842B71BAC800B8F958 /* SceneDelegate.swift in Sources */,
 				664DFBCE2B7D680A00455134 /* Questao.swift in Sources */,
+				664DFBD22B881D9F00455134 /* DesempenhoViewController.swift in Sources */,
 				664DFBAA2B73156500455134 /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +332,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W43P5WKNA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -327,6 +360,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W43P5WKNA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
